@@ -7,7 +7,7 @@ def line(people_in_deli)
   else
     msg = "The line is currently:"
     people_in_deli.each_with_index do |name, index|
-      msg += "#{index.to_i+1}. #{name}"
+      msg += " #{index.to_i+1}. #{name}"
     end
     puts msg
   end

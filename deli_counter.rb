@@ -16,3 +16,4 @@ def take_a_number(name, position)
   number = katz_deli.size
   puts "Welcome #{name}. You are #{number} in the line "
 end
+end

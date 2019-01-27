@@ -12,5 +12,4 @@ def deli_counter
     puts "Welcome #{name}. You are #{number} in the line "
   end
 
-
 end

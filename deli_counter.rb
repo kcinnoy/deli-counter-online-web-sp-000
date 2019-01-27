@@ -8,7 +8,8 @@ def deli_counter
 
   def take_a_number(name, position)
     katz_deli << name
-    puts "Welcome #{name}. You are #{position} in the line "
+    number = katz_deli.size
+    puts "Welcome #{name}. You are #{number} in the line "
   end
 
 

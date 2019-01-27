@@ -1,7 +1,7 @@
 
 katz_deli = []
 
-def line(position)
+def line(people_in_deli)
   # line_print = []
   if katz_deli.empty?
     puts "The line is currently empty."

@@ -1,6 +1,6 @@
 
 katz_deli = []
-  
+
 def line(position)
   line_print = []
   if katz_deli.empty?

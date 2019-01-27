@@ -6,7 +6,7 @@ def line(people_in_deli)
     puts "The line is currently empty."
   else
     msg = "The line is currently:"
-    katz_deli.each_with_index do |name, index|
+    people_in_deli.each_with_index do |name, index|
       msg += "#{index.to_i+1}. #{name}"
     end
     puts msg

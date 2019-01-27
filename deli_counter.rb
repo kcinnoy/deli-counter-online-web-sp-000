@@ -1,5 +1,5 @@
 
-clekatz_deli = []
+katz_deli = []
 
 def line(position)
   line_print = []

@@ -2,8 +2,7 @@
 katz_deli = []
 
 def line(people_in_deli)
-  # line_print = []
-  if katz_deli.empty?
+  if katz_deli.length == 0
     puts "The line is currently empty."
   else
     msg = "The line is currently:"

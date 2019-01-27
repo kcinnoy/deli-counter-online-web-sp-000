@@ -11,9 +11,9 @@ def line(position)
   puts "The line is currently: #{line_print.join(" ")}"
 end
 
-def take_a_number(name, position)
-  katz_deli << name
-  number = katz_deli.size
-  puts "Welcome #{name}. You are #{number} in the line "
-end
+# def take_a_number(name, position)
+#   katz_deli << name
+#   number = katz_deli.size
+#   puts "Welcome #{name}. You are #{number} in the line "
+# end
 end

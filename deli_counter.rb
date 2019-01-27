@@ -16,5 +16,5 @@ end
 def take_a_number(people_in_deli, name)
   people_in_deli << name
   position = people_in_deli.size
-  puts "Welcome, #{name}. You are number #{people_in_deli.index(name)+1} in the line."
+  puts "Welcome, #{name}. You are number #{people_in_deli.index(name)+1} in line."
 end
